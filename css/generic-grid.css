@@ -120,6 +120,77 @@
 }
 
 /* -- Offsets --*/
+.bit-l-offset-12, .col-l-offset-1 {
+  margin-left: 8.333%;
+}
+
+.bit-l-offset-11 {
+  margin-left: 9.090%;
+}
+
+.bit-l-offset-10 {
+  margin-left: 10%;
+}
+
+.bit-l-offset-9 {
+  margin-left: 11.111%;
+}
+
+.bit-l-offset-8 {
+  margin-left: 12.5%;
+}
+
+.bit-l-offset-7 {
+  margin-left: 14.28571%;
+}
+
+.bit-l-offset-6, .col-l-offset-2 {
+  margin-left: 16.666%;
+}
+
+.bit-l-offset-5 {
+  margin-left: 20%;
+}
+
+.bit-l-offset-4, .col-l-offset-3 {
+  margin-left: 25%;
+}
+
+.bit-l-offset-3, .col-l-offset-4 {
+  margin-left: 33.333%;
+}
+
+.col-l-offset-5{
+  margin-left: 41.666%;
+}
+
+.bit-l-offset-2, .col-l-offset-6 {
+  margin-left: 50%;
+}
+
+.col-l-offset-7{
+  margin-left: 58.333%
+}
+
+.col-l-offset-8{
+  margin-left: 66.666%;
+}
+
+.col-l-offset-9{
+  margin-left: 75%;
+}
+
+.col-l-offset-10{
+  margin-left: 83.333%;
+}
+
+.col-l-offset-11{
+  margin-left: 91.666%;
+}
+
+.bit-l-offset-1, .col-l-offset-12 {
+  margin-left: 100%;
+}
 
 /* -- Tablets -- */
 @media (min-width: 48em) and (max-width: 68.75em) {
