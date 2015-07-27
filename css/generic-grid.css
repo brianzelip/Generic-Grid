@@ -28,11 +28,22 @@
   clear:both;
 }
 
-[class*='bit-'], [class*='col-'] {
+[class*='bit-'], [class*='col-'], [class*='pull-'] {
   float: left;
   min-height: 1px;
   width: 8.33%;
-  padding:0.3em;
+  padding:0 0.3em;
+}
+
+/* -- Pulls -- */
+.pull-left {
+  float: left !important;
+  width:auto;
+}
+
+.pull-right {
+  float: right !important;
+  width:auto;
 }
 
 /* -- Columns -- */
@@ -109,15 +120,6 @@
 }
 
 /* -- Offsets --*/
-
-
-/* -- Pulls -- */
-.pull-left {
-  float: left !important;
-}
-.pull-right {
-  float: right !important;
-}
 
 /* -- Tablets -- */
 @media (min-width: 48em) and (max-width: 68.75em) {
