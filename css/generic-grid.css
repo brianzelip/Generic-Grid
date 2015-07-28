@@ -31,21 +31,22 @@
 [class*='bit-'], [class*='col-'], [class*='pull-'] {
   float: left;
   min-height: 1px;
-  width: 100%;
   padding:0 0.3em;
+  position: relative;
+  width: 100%;
 }
 
-.pull-left {
+/* -- Mobile -- */
+.pull-s-left {
   float: left !important;
   width:auto;
 }
 
-.pull-right {
+.pull-s-right {
   float: right !important;
   width:auto;
 }
 
-/* -- Mobile -- */
 .bit-s-12, .col-s-1 {
   width: 8.333%;
 }
@@ -191,7 +192,17 @@
 }
 
 /* -- Tablet --*/
-@media (min-width: 768px) {
+@media (min-width: 48em) {
+  .pull-m-left {
+    float: left !important;
+    width:auto;
+  }
+
+  .pull-m-right {
+    float: right !important;
+    width:auto;
+  }
+
   .bit-m-12, .col-m-1 {
     width: 8.333%;
   }
@@ -338,7 +349,16 @@
 }
 
 /* -- Desktop -- */
-@media (min-width: 992px) {
+@media (min-width: 68.75em) {
+  .pull-l-left {
+    float: left !important;
+    width:auto;
+  }
+
+  .pull-l-right {
+    float: right !important;
+    width:auto;
+  }
   .bit-l-12, .col-l-1 {
     width: 8.333%;
   }
