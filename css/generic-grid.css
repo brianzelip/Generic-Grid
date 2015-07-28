@@ -226,7 +226,7 @@
 
 /* -- Tablet --*/
 @media (min-width: 48em) {
-  .pull-left,
+/*  .pull-left,
   .pull-right,
   .bit-l-12, .col-l-1,
   .bit-l-11,
@@ -268,7 +268,7 @@
   .col-l-offset-11,
   .bit-l-offset-1, .col-l-offset-12{
     margin-left: 0;
-  }
+  }*/
 
   .bit-m-12, .col-m-1 {
     width: 8.333%;
