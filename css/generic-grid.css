@@ -6,32 +6,32 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding-right:0.3em;
-  padding-left:0.3em;
+  padding-right: 0.3em;
+  padding-left: 0.3em;
 }
 
 .fluid-container{
-  max-width:100%;
-  padding-right:0.3em;
-  padding-left:0.3em;
+  max-width: 100%;
+  padding-right: 0.3em;
+  padding-left: 0.3em;
 }
 
 .row{
-  margin-left:-0.3em;
-  margin-right:-0.3em;
+  margin-left: -0.3em;
+  margin-right: -0.3em;
 }
 
 .row:before,
 .row:after {
   content: "";
-  display:table;
-  clear:both;
+  display: table;
+  clear: both;
 }
 
 [class*='bit-'], [class*='col-'], [class*='pull-'] {
   float: left;
   min-height: 1px;
-  width: 8.33%;
+  width: 8.333%;
   padding:0 0.3em;
 }
 
