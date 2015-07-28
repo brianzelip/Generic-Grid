@@ -4,7 +4,7 @@
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 75em;
   margin: 0 auto;
   padding-right: 0.3em;
   padding-left: 0.3em;
@@ -191,8 +191,8 @@
   margin-left: 100%;
 }
 
-/* -- Tablet --*/
-@media (min-width: 48em) {
+/* -- Tablet and Phablet Landscape --*/
+@media (min-width: 46em) {
   .pull-m-left {
     float: left !important;
     width:auto;
@@ -349,7 +349,7 @@
 }
 
 /* -- Desktop -- */
-@media (min-width: 68.75em) {
+@media (min-width: 65em) {
   .pull-l-left {
     float: left !important;
     width:auto;
