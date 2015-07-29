@@ -28,7 +28,7 @@
   clear: both;
 }
 
-[class*='bit-'], [class*='col-'], [class*='pull-'] {
+[class*='bit-'], [class*='col-'], [class*='pull-'], [class*='push-'] {
   float: left;
   min-height: 1px;
   padding:0 0.3em;
@@ -37,6 +37,22 @@
 }
 
 /* -- Mobile -- */
+.hidden-s{
+  display: none !important;
+}
+
+.visable-s{
+  display: block !important;
+}
+
+.visable-s-inline{
+  display: inline !important;
+}
+
+.visable-s-inline-block{
+  display: inline-block !important;
+}
+
 .bit-s-12, .col-s-1 {
   width: 8.333%;
 }
@@ -337,6 +353,22 @@
 
 /* -- Tablet and Phablet Landscape --*/
 @media (min-width: 46em) {
+  .hidden-m{
+    display: none !important;
+  }
+
+  .visable-m{
+    display: block !important;
+  }
+
+  .visable-m-inline{
+    display: inline !important;
+  }
+
+  .visable-m-inline-block{
+    display: inline-block !important;
+  }
+
   .bit-m-12, .col-m-1 {
     width: 8.333%;
   }
@@ -638,6 +670,22 @@
 
 /* -- Desktop -- */
 @media (min-width: 65em) {
+  .hidden-l{
+    display: none !important;
+  }
+
+  .visable-l{
+    display: block !important;
+  }
+
+  .visable-l-inline{
+    display: inline !important;
+  }
+
+  .visable-l-inline-block{
+    display: inline-block !important;
+  }
+
   .bit-l-12, .col-l-1 {
     width: 8.333%;
   }
