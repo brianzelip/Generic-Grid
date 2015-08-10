@@ -3,6 +3,24 @@
   box-sizing: border-box;
 }
 
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.gutterless [class*='bit-'],
+.gutterless [class*='col-'],
+.gutterless [class*='pull-'],
+.gutterless [class*='push-'] {
+  padding-right:0;
+  padding-left: 0;
+}
+
 .container {
   margin: 0 auto;
   max-width: 75em;
