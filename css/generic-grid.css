@@ -283,6 +283,11 @@
   right: 100%;
 }
 
+.bit-s-offset-0,
+.col-s-offset-0 {
+  margin-left: 0%;
+}
+
 .bit-s-offset-12, .col-s-offset-1 {
   margin-left: 8.333%;
 }
@@ -595,11 +600,18 @@
     right: 91.666%;
   }
 
-  .bit-m-pull-1, .col-m-pull-12 {
+  .bit-m-pull-1,
+  .col-m-pull-12 {
     right: 100%;
   }
 
-  .bit-m-offset-12, .col-m-offset-1 {
+  .bit-m-offset-0,
+  .col-m-offset-0 {
+    margin-left: 0%;
+  }
+
+  .bit-m-offset-12,
+  .col-m-offset-1 {
     margin-left: 8.333%;
   }
 
@@ -916,7 +928,13 @@
     right: 100%;
   }
 
-  .bit-l-offset-12, .col-l-offset-1 {
+  .bit-l-offset-0,
+  .col-l-offset-0 {
+    margin-left: 0%;
+  }
+
+  .bit-l-offset-12,
+  .col-l-offset-1 {
     margin-left: 8.333%;
   }
 
