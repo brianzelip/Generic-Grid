@@ -3,24 +3,6 @@
   box-sizing: border-box;
 }
 
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-.gutterless [class*='bit-'],
-.gutterless [class*='col-'],
-.gutterless [class*='pull-'],
-.gutterless [class*='push-'] {
-  padding-right:0;
-  padding-left: 0;
-}
-
 .container {
   margin: 0 auto;
   max-width: 75em;
@@ -1123,4 +1105,29 @@
   .col-l-offset-12 {
     margin-left: 100%;
   }
+}
+
+/* Misc */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.gutterless [class*='bit-'],
+.gutterless [class*='col-'],
+.gutterless [class*='pull-'],
+.gutterless [class*='push-'] {
+  padding-right:0;
+  padding-left: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
