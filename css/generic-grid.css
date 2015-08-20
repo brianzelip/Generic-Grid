@@ -136,12 +136,12 @@
   width: 100%;
 }
 
-.pull-s-left {
+.pull-s {
   float: left !important;
   width:auto;
 }
 
-.push-s-right {
+.push-s {
   float: right !important;
   width:auto;
 }
@@ -491,12 +491,12 @@
     width: 100%;
   }
 
-  .pull-m-left {
+  .pull-m {
     float: left !important;
     width:auto;
   }
 
-  .push-m-right {
+  .push-m {
     float: right !important;
     width:auto;
   }
@@ -847,12 +847,12 @@
     width: 100%;
   }
 
-  .pull-l-left {
+  .pull-l {
     float: left !important;
     width:auto;
   }
 
-  .push-l-right {
+  .push-l {
     float: right !important;
     width:auto;
   }
