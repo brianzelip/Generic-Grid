@@ -397,6 +397,10 @@
 
 /* -- Tablet and Phablet [-m] --*/
 @media (min-width: 46em) {
+  .hidden-s {
+    display: inherit !important;
+  }
+
   .hidden-m {
     display: none !important;
   }
@@ -753,6 +757,14 @@
 
 /* -- Desktop [-l] -- */
 @media (min-width: 65em) {
+  .hidden-s {
+    display: inherit !important;
+  }
+  
+  .hidden-m {
+    display: inherit !important;
+  }
+
   .hidden-l {
     display: none !important;
   }
