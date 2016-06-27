@@ -7,7 +7,7 @@
 .container
 {
     width: 100%;
-    max-width: 46rem;
+    max-width: 34rem;
     margin: 0 auto;
     padding-right: .3rem;
     padding-left: .3rem;
@@ -469,7 +469,7 @@
 }
 
 /* -- Tablet and Phablet [-m] --*/
-@media (min-width: 60rem)
+@media (min-width: 48rem)
 {
     .container
     {
@@ -894,7 +894,7 @@
 }
 
 /* -- Desktop [-l] -- */
-@media (min-width: 75rem)
+@media (min-width: 64rem)
 {
     .container
     {
@@ -1320,7 +1320,7 @@
 
 /* Visable and Hidden */
 
-@media (min-width: 75rem)
+@media (min-width: 64rem)
 {
     .hidden-l
     {
@@ -1328,7 +1328,7 @@
     }
 }
 
-@media (min-width: 60rem) and (max-width: 75rem)
+@media (min-width: 48rem) and (max-width: 64rem)
 {
     .hidden-m
     {
@@ -1336,7 +1336,7 @@
     }
 }
 
-@media (max-width: 60rem)
+@media (max-width: 48rem)
 {
     .hidden-s
     {

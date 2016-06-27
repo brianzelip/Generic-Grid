@@ -4,9 +4,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
 	<meta charset="UTF-8">
 	<title>Generic Grid - Demo</title>
-	<link rel="stylesheet" href="css/generic-grid.min.css">
+	<link rel="stylesheet" href="css/generic-grid.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
 	<style type="text/css">
+	/* This is example specific styling and should not be included in your project */
 	body{
 		text-align:center;
 	}
@@ -21,13 +22,28 @@
 	.box .box{
 		background: salmon;
 	}
+	#masthead h1{
+		font-weight:800;
+		padding: 60px 0;
+	}
+
+	#masthead small{
+		display:block;
+		font-size:60%;
+		font-weight: 300;
+	}
 	</style>
 </head>
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="pull-m-left"><div class="box"><h1>Generic Grid</h1></div></div>
-			<div class="push-m-right"><div class="box"><h3>made by philhoyt</h3></div></div>
+			<div class="col-s-12">
+				<div class="box" id="masthead">
+					<h1>Generic Grid
+					<small>by philhoyt</small>
+					</h1>
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -291,6 +307,15 @@
 		<div class="row">
 			<div class="col-l-8 col-l-push-4"><div class="box">col-l-8 col-l-push-4</div></div>
 			<div class="col-l-4 col-l-pull-8"><div class="box">col-l-4 col-l-pull-8</div></div>
+		</div>
+	</div>
+
+	<h1>Hiddens</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-s-12 hidden-s"><div class="box">Small Hidden</div></div>
+			<div class="col-m-12 hidden-m"><div class="box">Medium Hidden</div></div>
+			<div class="col-l-12 hidden-l"><div class="box">Large Hidden</div></div>
 		</div>
 	</div>
 </body>
