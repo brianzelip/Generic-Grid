@@ -42,4 +42,4 @@ With Generic Grid you can organize your layouts using Columns and Bits.
 Generic Grid works best in conjunction with [Normalize](https://necolas.github.io/normalize.css/)
 
 ##Licence
-I don't really know how licensing really works. This is free to use, modify, or redistribute. It will be rolled into my wordpress themes and frontend framework and will fall under what ever licence I use for those which will probablly be GPL or something.
+I don't really know how licensing works. This is free to use, modify, or redistribute. It will be rolled into my WordPress themes and frontend framework and fall under whatever licence I use for those which will be GPLv2.
