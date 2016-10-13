@@ -156,7 +156,6 @@ $gutter: .3rem;
 }
 
 /* Visable and Hidden */
-
 @media (min-width: 64rem) {
 	.hidden-l {
 		display: none;
@@ -175,7 +174,30 @@ $gutter: .3rem;
 	}
 }
 
-/* Misc */
+@mixin breakpoint($point) {
+	@if $point==desktop {
+		@media (min-width: 64em) {
+			@content ;
+		}
+	}
+	@else if $point==tablet {
+		@media (min-width: 48em) and (max-width: 64em) {
+			@content ;
+		}
+	}
+	@else if $point==mobile {
+		@media (max-width: 48em) {
+			@content ;
+		}
+	}
+}
+
+/* Gutterless Rows */
+.row.gutterless {
+	margin-left: 0;
+	margin-right: 0;
+}
+
 .gutterless [class*='bit-'],
 .gutterless [class*='col-'],
 .gutterless [class*='pull-'],
@@ -184,14 +206,7 @@ $gutter: .3rem;
 	padding-left: 0;
 }
 
-.invisible {
-	visibility: hidden;
-}
-
-.hidden {
-	display: none !important;
-}
-
+/* Responsive Images */
 img {
 	max-width: 100%;
 	height: auto;

@@ -1095,7 +1095,11 @@
 @media (max-width: 48rem) {
   .hidden-s {
     display: none; } }
-/* Misc */
+/* Gutterless Rows */
+.row.gutterless {
+  margin-left: 0;
+  margin-right: 0; }
+
 .gutterless [class*='bit-'],
 .gutterless [class*='col-'],
 .gutterless [class*='pull-'],
@@ -1103,12 +1107,7 @@
   padding-right: 0;
   padding-left: 0; }
 
-.invisible {
-  visibility: hidden; }
-
-.hidden {
-  display: none !important; }
-
+/* Responsive Images */
 img {
   max-width: 100%;
   height: auto; }
