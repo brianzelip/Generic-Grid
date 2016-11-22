@@ -43,13 +43,21 @@ $gutter: .3rem;
 	padding: 0 $gutter;
 }
 
+.bit-s-0,
+.col-s-0 {
+	width: 0;
+}
+.push-s {
+	float: right !important;
+	width: inherit;
+}
+.pull-s {
+	float: left !important;
+	width: inherit;
+}
 @for $i from 1 through $columns {
 	$bit-width: percentage(1 / $i);
 	$col-width: percentage($i / $columns);
-	.bit-s-0,
-	.col-s-0 {
-		width: 0;
-	}
 	.bit-s-offset-0,
 	.col-s-offset-0 {
 		margin-left: 0;
@@ -80,6 +88,14 @@ $gutter: .3rem;
 @media (min-width: 48rem) {
 	.container {
 		max-width: 60rem;
+	}
+	.push-m {
+		float: right !important;
+		width: inherit;
+	}
+	.pull-m {
+		float: left !important;
+		width: inherit;
 	}
 	@for $i from 1 through $columns {
 		$bit-width: percentage(1 / $i);
@@ -119,6 +135,14 @@ $gutter: .3rem;
 @media (min-width: 64rem) {
 	.container {
 		max-width: 75rem;
+	}
+	.push-l {
+		float: right !important;
+		width: inherit;
+	}
+	.pull-l {
+		float: left !important;
+		width: inherit;
 	}
 	@for $i from 1 through $columns {
 		$bit-width: percentage(1 / $i);
